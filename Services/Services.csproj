@@ -43,9 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IRepository\IRepository.csproj">
-      <Project>{19acebf0-6e76-4edb-a082-0af3a0ae181d}</Project>
-      <Name>IRepository</Name>
+    <ProjectReference Include="..\Repository\DataAccessLayer.csproj">
+      <Project>{6536214c-1bc0-4091-9022-a427f167b9ef}</Project>
+      <Name>DataAccessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
